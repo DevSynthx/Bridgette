@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0C7A2A422AD1D71500E732ED /* BridgetteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A412AD1D71500E732ED /* BridgetteApp.swift */; };
-		0C7A2A442AD1D71500E732ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A432AD1D71500E732ED /* ContentView.swift */; };
+		0C7A2A442AD1D71500E732ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A432AD1D71500E732ED /* MainView.swift */; };
 		0C7A2A462AD1D71500E732ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A2A452AD1D71500E732ED /* Assets.xcassets */; };
 		0C7A2A492AD1D71500E732ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A2A482AD1D71500E732ED /* Preview Assets.xcassets */; };
 		0C7A2A532AD1D71500E732ED /* BridgetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A522AD1D71500E732ED /* BridgetteTests.swift */; };
 		0C7A2A5D2AD1D71500E732ED /* BridgetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A5C2AD1D71500E732ED /* BridgetteUITests.swift */; };
 		0C7A2A5F2AD1D71500E732ED /* BridgetteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A5E2AD1D71500E732ED /* BridgetteUITestsLaunchTests.swift */; };
+		0C7A2A702AD1D77200E732ED /* MabryPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A2A6E2AD1D77200E732ED /* MabryPro-Medium.ttf */; };
+		0C7A2A712AD1D77200E732ED /* MabryPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A2A6F2AD1D77200E732ED /* MabryPro-Bold.ttf */; };
+		0C7A2A762AD1D97B00E732ED /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A752AD1D97B00E732ED /* Font.swift */; };
+		0C7A2A782AD1E31200E732ED /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2A772AD1E31200E732ED /* color.swift */; };
+		0C8B69902AD309B700C0058C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B698F2AD309B700C0058C /* HeaderView.swift */; };
+		0C8B69922AD30A2E00C0058C /* GasPumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69912AD30A2E00C0058C /* GasPumpView.swift */; };
+		0C8B69952AD30F7900C0058C /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69942AD30F7900C0058C /* TradeView.swift */; };
+		0C8B69972AD30F9C00C0058C /* TradeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69962AD30F9C00C0058C /* TradeCards.swift */; };
+		0C8B69992AD3203B00C0058C /* RecieveSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69982AD3203B00C0058C /* RecieveSendView.swift */; };
+		0C8B699B2AD3361000C0058C /* StarGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B699A2AD3361000C0058C /* StarGateView.swift */; };
+		0C8B699D2AD3410600C0058C /* ReviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B699C2AD3410600C0058C /* ReviewButton.swift */; };
+		0C8B699F2AD3476000C0058C /* SelectRouteDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B699E2AD3476000C0058C /* SelectRouteDialogView.swift */; };
+		0C8B69A22AD3643700C0058C /* StargateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69A12AD3643700C0058C /* StargateCardView.swift */; };
+		0C8B69A42AD364C700C0058C /* ContextCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69A32AD364C700C0058C /* ContextCardView.swift */; };
+		0C8B69A72AD3663100C0058C /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B69A62AD3663100C0058C /* TopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		0C7A2A3E2AD1D71500E732ED /* Bridgette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridgette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7A2A412AD1D71500E732ED /* BridgetteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgetteApp.swift; sourceTree = "<group>"; };
-		0C7A2A432AD1D71500E732ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C7A2A432AD1D71500E732ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0C7A2A452AD1D71500E732ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7A2A482AD1D71500E732ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C7A2A4E2AD1D71500E732ED /* BridgetteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgetteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,22 @@
 		0C7A2A582AD1D71500E732ED /* BridgetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7A2A5C2AD1D71500E732ED /* BridgetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgetteUITests.swift; sourceTree = "<group>"; };
 		0C7A2A5E2AD1D71500E732ED /* BridgetteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgetteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C7A2A6E2AD1D77200E732ED /* MabryPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MabryPro-Medium.ttf"; sourceTree = "<group>"; };
+		0C7A2A6F2AD1D77200E732ED /* MabryPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MabryPro-Bold.ttf"; sourceTree = "<group>"; };
+		0C7A2A722AD1D89D00E732ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C7A2A752AD1D97B00E732ED /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		0C7A2A772AD1E31200E732ED /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		0C8B698F2AD309B700C0058C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0C8B69912AD30A2E00C0058C /* GasPumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPumpView.swift; sourceTree = "<group>"; };
+		0C8B69942AD30F7900C0058C /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		0C8B69962AD30F9C00C0058C /* TradeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCards.swift; sourceTree = "<group>"; };
+		0C8B69982AD3203B00C0058C /* RecieveSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveSendView.swift; sourceTree = "<group>"; };
+		0C8B699A2AD3361000C0058C /* StarGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGateView.swift; sourceTree = "<group>"; };
+		0C8B699C2AD3410600C0058C /* ReviewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewButton.swift; sourceTree = "<group>"; };
+		0C8B699E2AD3476000C0058C /* SelectRouteDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteDialogView.swift; sourceTree = "<group>"; };
+		0C8B69A12AD3643700C0058C /* StargateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargateCardView.swift; sourceTree = "<group>"; };
+		0C8B69A32AD364C700C0058C /* ContextCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextCardView.swift; sourceTree = "<group>"; };
+		0C8B69A62AD3663100C0058C /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +125,11 @@
 		0C7A2A402AD1D71500E732ED /* Bridgette */ = {
 			isa = PBXGroup;
 			children = (
+				0C7A2A732AD1D92000E732ED /* Utils */,
+				0C7A2A722AD1D89D00E732ED /* Info.plist */,
+				0C7A2A6D2AD1D75C00E732ED /* Fonts */,
+				0C7A2A6B2AD1D72400E732ED /* Views */,
 				0C7A2A412AD1D71500E732ED /* BridgetteApp.swift */,
-				0C7A2A432AD1D71500E732ED /* ContentView.swift */,
 				0C7A2A452AD1D71500E732ED /* Assets.xcassets */,
 				0C7A2A472AD1D71500E732ED /* Preview Content */,
 			);
@@ -125,6 +159,83 @@
 				0C7A2A5E2AD1D71500E732ED /* BridgetteUITestsLaunchTests.swift */,
 			);
 			path = BridgetteUITests;
+			sourceTree = "<group>";
+		};
+		0C7A2A6B2AD1D72400E732ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A2A6C2AD1D73500E732ED /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C7A2A6C2AD1D73500E732ED /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				0C8B698E2AD3068000C0058C /* Subviews */,
+				0C7A2A432AD1D71500E732ED /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		0C7A2A6D2AD1D75C00E732ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A2A6F2AD1D77200E732ED /* MabryPro-Bold.ttf */,
+				0C7A2A6E2AD1D77200E732ED /* MabryPro-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0C7A2A732AD1D92000E732ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A2A752AD1D97B00E732ED /* Font.swift */,
+				0C7A2A772AD1E31200E732ED /* color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0C8B698E2AD3068000C0058C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0C8B69A02AD35EAD00C0058C /* CustomDialogs */,
+				0C8B69932AD30F6400C0058C /* TradeView */,
+				0C8B698F2AD309B700C0058C /* HeaderView.swift */,
+				0C8B69912AD30A2E00C0058C /* GasPumpView.swift */,
+				0C8B69982AD3203B00C0058C /* RecieveSendView.swift */,
+				0C8B699A2AD3361000C0058C /* StarGateView.swift */,
+				0C8B699C2AD3410600C0058C /* ReviewButton.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0C8B69932AD30F6400C0058C /* TradeView */ = {
+			isa = PBXGroup;
+			children = (
+				0C8B69942AD30F7900C0058C /* TradeView.swift */,
+				0C8B69962AD30F9C00C0058C /* TradeCards.swift */,
+			);
+			path = TradeView;
+			sourceTree = "<group>";
+		};
+		0C8B69A02AD35EAD00C0058C /* CustomDialogs */ = {
+			isa = PBXGroup;
+			children = (
+				0C8B69A52AD365CA00C0058C /* SelectRoute */,
+			);
+			path = CustomDialogs;
+			sourceTree = "<group>";
+		};
+		0C8B69A52AD365CA00C0058C /* SelectRoute */ = {
+			isa = PBXGroup;
+			children = (
+				0C8B699E2AD3476000C0058C /* SelectRouteDialogView.swift */,
+				0C8B69A12AD3643700C0058C /* StargateCardView.swift */,
+				0C8B69A32AD364C700C0058C /* ContextCardView.swift */,
+				0C8B69A62AD3663100C0058C /* TopView.swift */,
+			);
+			path = SelectRoute;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7A2A702AD1D77200E732ED /* MabryPro-Medium.ttf in Resources */,
 				0C7A2A492AD1D71500E732ED /* Preview Assets.xcassets in Resources */,
 				0C7A2A462AD1D71500E732ED /* Assets.xcassets in Resources */,
+				0C7A2A712AD1D77200E732ED /* MabryPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +370,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7A2A442AD1D71500E732ED /* ContentView.swift in Sources */,
+				0C8B69A42AD364C700C0058C /* ContextCardView.swift in Sources */,
+				0C8B69A72AD3663100C0058C /* TopView.swift in Sources */,
+				0C8B69972AD30F9C00C0058C /* TradeCards.swift in Sources */,
+				0C8B699B2AD3361000C0058C /* StarGateView.swift in Sources */,
+				0C8B69922AD30A2E00C0058C /* GasPumpView.swift in Sources */,
+				0C8B69952AD30F7900C0058C /* TradeView.swift in Sources */,
+				0C8B69902AD309B700C0058C /* HeaderView.swift in Sources */,
+				0C7A2A442AD1D71500E732ED /* MainView.swift in Sources */,
+				0C8B699D2AD3410600C0058C /* ReviewButton.swift in Sources */,
+				0C8B69992AD3203B00C0058C /* RecieveSendView.swift in Sources */,
+				0C8B699F2AD3476000C0058C /* SelectRouteDialogView.swift in Sources */,
+				0C7A2A782AD1E31200E732ED /* color.swift in Sources */,
+				0C8B69A22AD3643700C0058C /* StargateCardView.swift in Sources */,
 				0C7A2A422AD1D71500E732ED /* BridgetteApp.swift in Sources */,
+				0C7A2A762AD1D97B00E732ED /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +546,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bridgette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +576,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bridgette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
